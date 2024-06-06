@@ -1,16 +1,13 @@
 title:              Adam & Scarlett
-email:              your-email@example.com
-description:        24.06.2025
+email:              adamjlee5@aol.com
+description:        Wedding Day 24.06.2025
 author:             Adam
 baseurl:            "/Adam-and-Scarlett-2025"
 url:                "https://startbootstrap.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
 facebook_username:  StartBootstrap
-instagram_username:  
-linkedin_username:
+
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
