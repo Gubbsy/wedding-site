@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Key Info
-background: '/img/bg-post.jpg'
+background: '/img/lights.jpg'
 ---
 
 {% for post in paginator.posts %}
@@ -21,7 +21,7 @@ background: '/img/bg-post.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    on {{ post.date | date: '%B %d, %Y' }} &middot;
   </p>
 </article>
 
