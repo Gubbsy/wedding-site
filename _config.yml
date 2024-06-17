@@ -2,8 +2,10 @@ title:              Adam & Scarlett
 email:              adamjlee5@aol.com
 description:        Wedding Day 24.06.2025
 author:             Adam
-baseurl:            "/Adam-and-Scarlett-2025"
-url:                "https://startbootstrap.github.io"
+baseurl:            "/wedding-site/"
+url:                "https://adam-and-scarlett.github.io"
+domain: wedding.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+ # the base hostname and protocol for your site, e.g. http://example.com
 
 # Social Profiles
 facebook_username:  StartBootstrap
