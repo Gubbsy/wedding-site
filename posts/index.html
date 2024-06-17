@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Posts
-background: '/img/bg-post.jpg'
+title: Key Info
+background: '/img/lights.jpg'
 ---
 
 {% for post in paginator.posts %}
@@ -21,7 +21,7 @@ background: '/img/bg-post.jpg'
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    on {{ post.date | date: '%B %d, %Y' }} &middot;
   </p>
 </article>
 
@@ -36,7 +36,7 @@ background: '/img/bg-post.jpg'
 
   {% if paginator.previous_page %}
   <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
+    Newer<span class="d-none d-md-inline"> Key Info</span></a>
   {% endif %}
 
   {% if paginator.next_page %}
